@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #1e293b;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-top: 20px;
+}
+
+body > p {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 700px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+nav a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1e3a8a;
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #2563eb;
+    margin-top: 15px;
+}
+
+section p {
+    margin: 8px 0;
+}
+
+ul {
+    padding-left: 25px;
+    margin: 10px 0;
+}
+
+li {
+    margin: 6px 0;
+}
+
+#projects div,
+#education div,
+#leadership div {
+    background-color: #f8fafc;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    padding: 20px;
+    color: #64748b;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+}
